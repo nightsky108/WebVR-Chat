@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { connect } from 'react-redux'
 
+import VR from '../../VR/VR'
 /*
 FRONT PAGE: .../
 Splash page. This is semi-dynamic
@@ -21,6 +22,7 @@ class FrontPage extends React.Component {
         <Helmet title='Home' />
         <section>
           <p>Front Page</p>
+          <VR />
         </section>
       </article>
     )

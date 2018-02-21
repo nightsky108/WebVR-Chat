@@ -1,0 +1,58 @@
+@import '../../css/layout';
+@import '../../css/colors';
+
+.nav {
+  z-index: 999;
+  background: var(--dark-gray);
+}
+.nav-event {
+  margin: 16px;
+  border-radius: 4px !important;
+}
+
+
+.uw-logo {
+  vertical-align: middle;
+  max-height: 35px;
+  margin-right: 16px;
+}
+.stf-logo {
+  vertical-align: middle;
+  max-height: 50px;
+}
+.clip {
+  /*Per branding, 15* clip: https://www.washington.edu/brand/graphic-elements/angled-background/ */
+  -webkit-clip-path: polygon(15% 0, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(15% 0, 100% 0%, 100% 100%, 0% 100%);
+  height: var(--headerHeight, 60px);
+  width: 200px;
+  /*width: 100%;*/
+  background-color: white !important;
+  color: var(--metallic-gold, goldenrod);
+}
+
+.wordmark {
+  width: 100%;
+  max-width: 240px;
+  margin-top: 8px;
+  padding: 8px;
+}
+.header-elements {
+  /*justify-content: space-between;*/
+}
+
+.breadcrumb {
+  margin-top: 24px;
+  padding: 0 16px;
+  /*padding: 0 24px;*/
+  @media (min-width: 992px) {
+    margin: 24px 48px 0 48px;
+    padding: 0;
+  }
+}
+
+.body {
+  /*background: #d9d9d9;*/
+  /*min-height: calc(100vh - 60px);*/
+  /*min-height: calc(100vh - 110px)*/
+}
